@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="sablier.svg">
+
+    <!-- [EDIT] Remplis les 3 balises ci-dessous -->
+    <title>Challenge 48h - EQUIPE Dream Team</title>
+    <meta name="description" content="Description de la page pour les moteurs de recherche">
+    <meta name="keywords" content="Mots-clés de la page, séparés par des virgules">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+      .carousel-item {
+        height: 300px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- [EDIT] Dans la navbar, précise le nom de ton projet -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">The Ultimate Student</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#presentation">Présentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#equipe">L'équipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="visuels">Visuels</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#liens-pratiques">Liens pratiques</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div id="presentation" class="col-lg-12 text-center">
+          <h1>The Ultimate Student</h1>
+        </div>
+        <div class="row" style="margin: 2%;">
+          <div class="col-md-8 align-items-center">
+            <p>
+              The ultimate Student est un jeu de cartes qui fonctionne comme une gestion d'étudiant.
+              <br>Nous avons à notre charge un étudiant qui est représenté par plusieurs stats :
+            </p>
+            
+            <ul>
+              <li>La faim</li>
+              <li>La connaissance</li>
+              <li>L'argent</li>
+              <li>Le social</li>
+            </ul>
+
+            <p>Plusieurs cartes vont défiler devant le joueur, ces cartes vont exercer une influence sur nos stats.</p>
+            <ul>
+              <li>Les cartes Malus baissent forcément les stats.</li>
+              <li>Les cartes Bonus augment forcément les stats.</li>
+              <li>Les cartes événement vont influencer les stats suivant le choix.</li>
+            </ul>
+
+            <p>
+              Car oui ! Le joueur sera amené à choisir entre 2 propositions pour chaque carte devant lui.
+              Ce qui va aussi pouvoir changer le type de stats à influencer.
+            </p>
+          </div>
+        <div class="col-md-4 align-items-center">
+          <img src="logo.png" alt="mockup"  class="img-fluid mx-auto d-block" style="margin-bottom: 5%; width: 40%;">
+          <img src="image.png" alt="mockup"  class="img-fluid mx-auto d-block" style="width: 45%;">
+        </div>
+      </div>
+      
+      
+      <div id="equipe" class="col-lg-12 text-center mb-5">
+        <h2>L'ÉQUIPE</h2>
+      </div>
+
+      <!-- [EDIT] Cette section doit présenter l'intégralité des membres du groupe  -->
+      <div class="row justify-content-center mb-5">
+        <!-- [EDIT] PRESENTATION ETUDIANT 1 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+          <img src="eliott.jpg" class="card-img-top" alt="Etudiant 1">
+            <div class="card-body">
+              <h5 class="card-title">Eliott Guignabaudet</h5>
+              <p class="card-text">Coordinateur et Game Developper, j'ai fait la partie qui touches aux statistiques avec le menu démarrer, de victoire et de défaite</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- [EDIT] PRESENTATION ETUDIANT 2 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+          <img src="chris.jpeg" class="card-img-top" alt="Etudiant 1">
+            <div class="card-body">
+              <h5 class="card-title">Christopher Cottet</h5>
+              <p class="card-text">J'ai eu le rôle d'un artiste et ingénieur son. Durant ce projet mes tâches étaient de créer les cartes grâce à un logiciel appelé Card Creator et d'intégrer des sons à l'intérieur du gameplay.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- [EDIT] PRESENTATION ETUDIANT 3 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+          <img src="dadan.jpg" class="card-img-top" alt="Etudiant 1">
+            <div class="card-body">
+              <h5 class="card-title">Aidan Dumont</h5>
+              <p class="card-text">Durant ce projet mes tâches étaient d'intégrer les Cartes et de créer leur équivalent en objets Unity modifiable, et leur donner des stats à modifier.
+                J'ai aussi créer un système de deck pour stocker toutes nos cartes.
+                Et enfin j'ai lié les effets des cartes aux stats du joueur.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- [EDIT] PRESENTATION ETUDIANT 4 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+          <img src="axel.jpg" class="card-img-top" alt="Etudiant 1">
+            <div class="card-body">
+              <h5 class="card-title">Axel Giraudon</h5>
+              <p class="card-text">Je suis un b1 qui a eu le rôle de game dev sur ce projet, j'ai effectué le script des archétypes, et le menu qui va avec pour choisir le perso qui nous plait.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- [EDIT] PRESENTATION ETUDIANT 5 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+          <img src="gwen.jpg" class="card-img-top" alt="Etudiant 1">
+            <div class="card-body">
+              <h5 class="card-title">Gwenaelle Devriendt</h5>
+              <p class="card-text">Pendant ce projet je me suis occupé du côté design, en réalisant les images des cartes avec le logiciel Photoshop et Avatar Maker. J'ai aussi réalisé l'animation pour retourner les cartes et j'ai aussi fait le site pour le rendu du jeu et une page Itch.io.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- [EDIT] PRESENTATION ETUDIANT 6 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+          <img src="dylan.jpg" class="card-img-top" alt="Etudiant 1">
+            <div class="card-body">
+              <h5 class="card-title">Dylan Charretier</h5>
+              <p class="card-text">Je fais partie de l'équipe de dev, je me suis occupé du système de swip et de l'aléatoire du tirage des différentes cartes</p>
+            </div>
+          </div>
+        </div>
+
+      <div id="visuels" class="col-lg-12 text-center mb-5">
+        <h2>VISUELS DU PROJET</h2>
+      </div>
+
+      <!-- [EDIT] Remplis le carousel avec des screenshots de ton projet accompagnés d'une légende -->
+      <div id="carouselExampleCaptions" class="carousel slide mb-5" style="width: 63%;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="card.png" class="d-block w-100" alt="screenshot1">
+            <div class="carousel-caption d-none d-md-block" style="color: black; bottom: -1.5rem;">
+              <h3>Les cartes évènements</h3>
+              <p>Ces cartes peuvent autant augmenter ou diminuer les stats.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="card1.png" class="d-block w-100" alt="screenshot2">
+            <div class="carousel-caption d-none d-md-block" style="color: black; bottom: -1.5rem;">
+              <h3>Les cartes malus</h3>
+              <p>Ces cartes vont automatiquement diminuer les stats, certaines contiennent un choix de malus.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="card2.png" class="d-block w-100" alt="screenshot3">
+            <div class="carousel-caption d-none d-md-block" style="color: black; bottom: -1.8rem;">
+              <h3>Les cartes bonus</h3>
+              <p>Ces cartes vont automatiquement augmenter les stats, certaines contiennent un choix de bonus.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style="left: -5rem; top: -4rem;">
+          <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: black;"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" style="right: -5rem; top: -4rem;">
+          <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: black;"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div id="liens-pratiques" class="col-lg-12 text-center mb-5">
+        <h2>LIENS PRATIQUES</h2>
+      </div>
+      <!-- [EDIT] Mets le lien du Github du projet et du PDF du dossier technique -->
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Github</h5>
+              <p class="card-text">Consultez notre code source et notre organisation sur Github.</p>
+              <a href="https://github.com/Eliott-Guignabaudet/Challenge-48h" class="btn btn-primary" target="_blank">Visiter</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">PDF</h5>
+              <p class="card-text">Téléchargez notre dossier technique au format PDF.</p>
+              <a href="DocumentTechnique.pdf" class="btn btn-primary" target="_blank">Télécharger</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Itch.io</h5>
+              <p class="card-text">Vous pouvez récupérer notre jeu sur notre page Itch.io</p>
+              <a href="https://arcaname.itch.io/the-ultimate-student" class="btn btn-primary" target="_blank">Visiter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <hr>
+
+    <div class="text-center mb-3">
+      Fait avec 😴 pour le Challenge 48h
+    </div>
+  </div>
+  </body>
+
+  <footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </footer>
+</html>
